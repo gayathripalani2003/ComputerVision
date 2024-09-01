@@ -1,5 +1,4 @@
-opencv-python
-numpy
-streamlit
-pillow
-
+opencv-python==4.8.0.76
+numpy==1.24.3
+streamlit==1.25.0
+pillow==10.0.0
