@@ -1,7 +1,6 @@
 # OpenCV HSL Color Palette
 
-This Python program creates an interactive HSL (Hue, Saturation, Lightness) color palette using OpenCV. The user can adjust the **Hue** value dynamically via a trackbar, while the Saturation and Lightness values are fixed. The resulting color is displayed in an OpenCV window, and the current HSL values are shown as text overlay on the image.
-
+This Python program creates an interactive HSL (Hue, Saturation, Lightness) color palette using OpenCV. The user can adjust the **Hue** value dynamically via a trackbar, while the Saturation and Lightness values are fixed. The resulting color is displayed in an OpenCV window.
 ## Features
 
 - **Dynamic Hue Adjustment**: Adjust the Hue value from 0 to 179 using a trackbar.
