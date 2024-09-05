@@ -19,6 +19,6 @@ This project provides a tool to enhance green-dominant pixels in images by adjus
 
 Below is an example of an output image after enhancing the greenery:
 
-![Enhanced Greenery](output_1.jpg)
-![Enhanced Greenery](output_2.jpg)
+![Enhanced Greenery](output_1.png)
+![Enhanced Greenery](output_2.png)
 
