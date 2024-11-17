@@ -32,7 +32,7 @@ Camera calibration determines:
 - For a \(7 \times 9\) checkerboard, the total corners are \(7 \times 9 = 63\).
 - Assumes all points lie on the \(XY\)-plane (\(Z = 0\)).
 
-#### **32 Image Points**:
+#### **2. Image Points**:
 - Detected using OpenCV's `cv2.findChessboardCorners()`.
 - Refined for sub-pixel accuracy with `cv2.cornerSubPix()`.
 
