@@ -43,9 +43,7 @@ Camera calibration determines:
 4. Translational vectors
 
 #### 1. **Camera Matrix (Intrinsic Parameters)**:
-   \[
-   K = \begin{bmatrix} f_x & 0 & c_x \\ 0 & f_y & c_y \\ 0 & 0 & 1 \end{bmatrix}
-   \]
+  ![Camera Matrix](output/k.png)
    Where:
    - \( f_x, f_y \): Focal lengths (in pixels).
    - \( c_x, c_y \): Optical center (in pixels).
