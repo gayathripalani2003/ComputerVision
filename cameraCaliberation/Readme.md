@@ -44,6 +44,8 @@ Camera calibration determines:
 
 #### 1. **Camera Matrix (Intrinsic Parameters)**:
   ![Camera Matrix](output/k.png)
+   
+   
    Where:
    - \( f_x, f_y \): Focal lengths (in pixels).
    - \( c_x, c_y \): Optical center (in pixels).
