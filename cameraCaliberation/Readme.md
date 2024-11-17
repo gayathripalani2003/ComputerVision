@@ -27,12 +27,12 @@ Camera calibration determines:
 1. 3D object points (checkerboard coordinates)
 2. 2D image points (detected corners on the checkerboard)
 
-#### **2. 3D Object Points**:
+#### **1. 3D Object Points**:
 - Represent 3D real-world points on the checkerboard.
 - For a \(7 \times 9\) checkerboard, the total corners are \(7 \times 9 = 63\).
 - Assumes all points lie on the \(XY\)-plane (\(Z = 0\)).
 
-#### **3. Image Points**:
+#### **32 Image Points**:
 - Detected using OpenCV's `cv2.findChessboardCorners()`.
 - Refined for sub-pixel accuracy with `cv2.cornerSubPix()`.
 
@@ -42,7 +42,7 @@ Camera calibration determines:
 3. Rotational vectors
 4. Translational vectors
 
-####1. **Camera Matrix (Intrinsic Parameters)**:
+#### 1. **Camera Matrix (Intrinsic Parameters)**:
    \[
    K = \begin{bmatrix} f_x & 0 & c_x \\ 0 & f_y & c_y \\ 0 & 0 & 1 \end{bmatrix}
    \]
@@ -50,25 +50,26 @@ Camera calibration determines:
    - \( f_x, f_y \): Focal lengths (in pixels).
    - \( c_x, c_y \): Optical center (in pixels).
 
-####2. **Distortion Coefficients**:
+#### 2. **Distortion Coefficients**:
    - **Radial Distortion** (\( k_1, k_2, k_3 \)): Corrects curved lines caused by lens shape.
    - **Tangential Distortion** (\( p_1, p_2 \)): Corrects misalignment of the lens.
 
-####3. **Rotation Vectors**:
+#### 3. **Rotation Vectors**:
    - Describes how the camera is rotated relative to the checkerboard.
 
-####4. **Translation Vectors**:
+#### 4. **Translation Vectors**:
    - Defines the camera's position in relation to the checkerboard.
 
 ---
 
 ## 📊 Results
-![Checkerboard Corner Detected Image](images/checkerboard_1.jpg)
-![Checkerboard Corner Detected Image](images/checkerboard_2.jpg)
-![Checkerboard Corner Detected Image](images/checkerboard_3.jpg)
-![Checkerboard Corner Detected Image](images/checkerboard_4.jpg)
-![Output](images/output_1.jpg)
-![Output](images/output_2.jpg)
-![Output](images/output_3.jpg)
-![Output](images/output_4.jpg)
-![Output](images/output_5.jpg)
+![Checkerboard Corner Detected Image](output/checkerboard_1.png)
+![Checkerboard Corner Detected Image](output/checkerboard_2.png)
+![Checkerboard Corner Detected Image](output/checkerboard_3.png)
+![Checkerboard Corner Detected Image](output/checkerboard_4.png)
+![Output](output/output_1.png)
+![Output](output/output_2.png)
+![Output](output/output_3.png)
+![Output](output/output_4.png)
+![Output](output/output_5.png)
+![Output](output/output_6.png)
